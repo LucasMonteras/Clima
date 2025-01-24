@@ -85,7 +85,7 @@ Para que la aplicación funcione correctamente, es necesario tener una clave de 
 
 ## 📧 **Contacto**
 
-Creador: **Lucas Montero**  
+Creador: **Lucas Monteras**  
 LinkedIn: [Lucas Monteras](https://www.linkedin.com/in/lucas-monteras/)  
 
 ---
