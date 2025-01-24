@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>App Clima</title>
+
+	<!-- Reset -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+
+	<!-- Google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap" rel="stylesheet">
+
+	<!-- Main stylesheet -->
+	<link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+	<video autoplay muted loop class="background-video">
+		<source src="img/videoLluvia.mp4" type="video/mp4">
+		Tu navegador no soporta la reproducción de video.
+	</video>
+
+	<div class="notification">
+		<h2>METEREOLOGIA LGM </h2>
+	</div>  <!-- notify -->
+
+	<div class="container">
+		<header>
+			<h1>Agregar ubicación</h1>
+
+			<form id="search-form">
+				<label for="search-term">Buscar la ciudad o zona</label>
+
+				<div class="form-row">
+					<input type="text" placeholder="Ciudad,AR" name="search-term" id="search-term" autofocus>
+
+					<button type="submit">
+						<img src="img/plus-circle.svg" alt="Plus circle">
+					</button>
+				</div> <!-- form-row -->
+
+				<p class="form-msg"></p>
+			</form>
+		</header>
+
+		<section>
+			<ul class="cities">
+			</ul>
+		</section>
+
+		<footer>
+			<p><small>Power by : <a href="https://www.linkedin.com/in/lucas-monteras/">LGM</a>.</small></p>
+		</footer>
+	</div> <!-- container -->
+
+	<script src="app.js"></script>
+</body>
+</html>
